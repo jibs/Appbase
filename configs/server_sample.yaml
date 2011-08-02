@@ -1,0 +1,11 @@
+# SAMPLE FILE
+# rename this to server.yaml
+
+# Server setup
+---
+servers :
+  staging:
+    - your.staging.server
+  production:
+    - your.production.server
+ 
