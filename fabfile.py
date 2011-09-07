@@ -66,7 +66,7 @@ def staging():
 
 def production():
     """ use production environment on remote host"""
-    env.environment = 'staging'
+    env.environment = 'production'
     env.user = 'ubuntu'
     env.home =  os.path.join('/home/',env.user, env.project) 
     env.hosts = env.conf['servers']['production']
